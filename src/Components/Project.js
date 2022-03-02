@@ -5,7 +5,7 @@ const Project = () => {
 	return (
 		<div>
 			<NavBar />
-			this is Project
+			this is Projects
 		</div>
 	);
 };
