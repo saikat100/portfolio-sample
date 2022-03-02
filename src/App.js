@@ -4,6 +4,7 @@ import Home from "../src/Components/Home";
 import Post from "../src/Components/Post";
 import About from "../src/Components/About";
 import SinglePost from "../src/Components/SinglePost";
+import Project from "./Components/Project";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<Route path="/" element={<Navigate to="/home" />} />
 			<Route path="/home" element={<Home />} />
 			<Route path="/post" element={<Post />} />
+			<Route path="/project" element={<Project/>} />
 			<Route path="/about" element={<About />} />
 			<Route path="/singlepost" element={<SinglePost />} />
 		</Routes>
